@@ -74,32 +74,19 @@ T4 — Directional only    Trend articles (never rank an opportunity on T4 alone
 ## Repository Structure
 
 ```
-nasvekt-founder-os/
-├── README.md
-├── COMPLETE-SYSTEM.md          ← All 16 prompts in one document
-├── MVP-ROADMAP.md              ← How this evolves into a runnable dashboard
-│
-├── 01-market-intelligence.md   ← P1-P4 prompts
-├── 02-financial-intelligence.md  ← F1-F4 prompts  
-├── 03-competitive-intelligence.md ← C1-C3 prompts
-├── 04-deal-intelligence.md     ← D1-D3 prompts
-├── 05-self-intelligence.md     ← Decision tracking + pattern recognition
-│
-├── 06-skills/                  ← 8 Claude Skills (.skill files)
-│   ├── market-research.skill
-│   ├── unit-economics.skill
-│   ├── competitive-intelligence.skill
-│   ├── deal-analysis.skill
-│   ├── systems-architecture.skill
-│   ├── prompt-engineering.skill
-│   ├── decision-quality.skill
-│   └── self-intelligence.skill
-│
-├── docs/
-│   └── dashboard-mvp.md        ← Future product architecture
-│
-└── examples/
-    └── builder-profile-template.md
+├── 01-market-intelligence.md       # P1-P4 prompts
+├── 02-financial-intelligence.md    # F1-F4 prompts  
+├── 03-competitive-intelligence.md  # C1-C3 prompts
+├── 04-deal-intelligence.md         # D1-D3 prompts
+├── 05-self-intelligence.md         # Decision tracking + pattern recognition
+├── 06-skills/                      # 8 Claude Skills (.skill files)
+├── docs/                           # Future product architecture
+├── examples/                       # Templates and profiles
+├── COMPLETE-SYSTEM.md              # All 16 prompts in one document
+├── MVP-ROADMAP.md                  # Evolution into a runnable dashboard
+├── NEXT_STEPS.md                   # Current action plan
+├── CONTRIBUTING.md                 # How to participate
+└── LICENSE                         # MIT License
 ```
 
 ## How to Use
